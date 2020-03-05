@@ -36,7 +36,7 @@ EasyWeChat 是一个开源的，社区驱动的项目。
 
 ### 开发流程
 
-1. Fork [overtrue/wechat](https://github.com/overtrue/wechat) 到本地.
+1. Fork [xkstudio/wechat](https://github.com/xkstudio/wechat) 到本地.
 2. 创建新的分支：
 
     ```shell
