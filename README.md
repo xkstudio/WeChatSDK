@@ -65,10 +65,11 @@ $miniProgram = $app->mini_program;
 
 > SDK 对所使用的框架并无特别要求
 
+
 ## Installation
 
 ```shell
-composer require "overtrue/wechat:~3.1" -vvv
+composer require "xkstudio/wechat:~3.3" -vvv
 ```
 
 ## Usage
