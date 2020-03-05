@@ -3,6 +3,7 @@ namespace EasyWeChat\MiniProgram\ContentSecurity;
 
 use EasyWeChat\Core\AbstractAPI;
 use EasyWeChat\Support\Collection;
+use EasyWeChat\Core\Exceptions\InvalidArgumentException;
 
 class Check extends AbstractAPI
 {
@@ -45,5 +46,22 @@ class Check extends AbstractAPI
         ];
 
         return $this->parseJSON('json', [self::API_CHECK_TEXT, $params]);
+    }
+
+
+    /*
+     * 检测图片
+     * */
+    public function checkImage($img)
+    {
+        $params = [
+            'media' => $img,
+        ];
+
+        if (!file_exists($img) || !is_readable($img)) {
+            throw new InvalidArgumentException("File does not exist, or the file is unreadable: '$img'");
+        }
+
+        return $this->parseJSON('upload', [self::API_CHECK_IMG, $params]);
     }
 }
