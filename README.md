@@ -56,6 +56,7 @@ $miniProgram = $app->mini_program;
  - 高度抽象的消息类，免去各种拼json与xml的痛苦；
  - 详细 Debug 日志，一切交互都一目了然；
 
+
 ## Requirement
 
 1. PHP >= 5.5.9
@@ -71,6 +72,7 @@ $miniProgram = $app->mini_program;
 ```shell
 composer require "xkstudio/wechat:~3.3" -vvv
 ```
+
 
 ## Usage
 
@@ -109,6 +111,7 @@ $server->serve()->send();
 
 更多请参考[https://www.easywechat.com/docs/3.x](https://www.easywechat.com/docs/3.x)。
 
+
 ## Documentation
 
 - Homepage: http://easywechat.org
@@ -118,13 +121,16 @@ $server->serve()->send();
 
 > 强烈建议看懂微信文档后再来使用本 SDK。
 
+
 ## Integration
 
 [Laravel 5 拓展包: overtrue/laravel-wechat](https://github.com/overtrue/laravel-wechat)
 
+
 ## Contribution
 
 [Contribution Guide](.github/CONTRIBUTING.md)
+
 
 ## License
 
