@@ -31,6 +31,7 @@ use EasyWeChat\Support\Traits\PrefixedContainer;
 /**
  * Class MiniProgram.
  *
+ * @property \EasyWeChat\MiniProgram\ContentSecurity\Check $content_security
  * @property \EasyWeChat\MiniProgram\Server\Guard $server
  * @property \EasyWeChat\MiniProgram\Sns\Sns $sns
  * @property \EasyWeChat\MiniProgram\Notice\Notice $notice
