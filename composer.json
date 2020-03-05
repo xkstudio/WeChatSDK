@@ -1,17 +1,19 @@
 {
-    "name": "overtrue/wechat",
+    "name": "xkstudio/wechat",
     "description": "微信SDK",
     "keywords": [
         "wechat",
         "weixin",
         "weixin-sdk",
+        "mini program",
         "sdk"
     ],
+    "homepage": "https://github.com/xkstudio/wechat",
     "license": "MIT",
     "authors": [
         {
-            "name": "overtrue",
-            "email": "anzhengchao@gmail.com"
+            "name": "Xiaok",
+            "email": "me@luxiaok.com"
         }
     ],
     "require": {
