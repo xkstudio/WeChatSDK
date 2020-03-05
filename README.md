@@ -107,7 +107,7 @@ $server->setMessageHandler(function($message) use ($user) {
 $server->serve()->send();
 ```
 
-更多请参考[http://easywechat.org/](http://easywechat.org/)。
+更多请参考[https://www.easywechat.com/docs/3.x](https://www.easywechat.com/docs/3.x)。
 
 ## Documentation
 
