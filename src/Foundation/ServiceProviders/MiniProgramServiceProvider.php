@@ -26,6 +26,7 @@ use EasyWeChat\MiniProgram\AccessToken;
 use EasyWeChat\MiniProgram\ContentSecurity\Check as ContentSecurity;
 use EasyWeChat\MiniProgram\Encryption\Encryptor;
 use EasyWeChat\MiniProgram\Material\Temporary;
+use EasyWeChat\MiniProgram\Message\Subscribe;
 use EasyWeChat\MiniProgram\MiniProgram;
 use EasyWeChat\MiniProgram\Notice\Notice;
 use EasyWeChat\MiniProgram\QRCode\QRCode;
@@ -89,6 +90,10 @@ class MiniProgramServiceProvider implements ServiceProviderInterface
 
         $pimple['mini_program.material_temporary'] = function ($pimple) {
             return new Temporary($pimple['mini_program.access_token']);
+        };
+
+        $pimple['mini_program.message_subscribe'] = function ($pimple) {
+            return new Subscribe($pimple['mini_program.access_token']);
         };
 
         $pimple['mini_program.stats'] = function ($pimple) {

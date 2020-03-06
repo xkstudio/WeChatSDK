@@ -38,6 +38,7 @@ use EasyWeChat\Support\Traits\PrefixedContainer;
  * @property \EasyWeChat\MiniProgram\Staff\Staff $staff
  * @property \EasyWeChat\MiniProgram\QRCode\QRCode $qrcode
  * @property \EasyWeChat\MiniProgram\Material\Temporary $material_temporary
+ * @property \EasyWeChat\MiniProgram\Message\Subscribe $message_subscribe
  * @property \EasyWeChat\MiniProgram\Stats\Stats $stats
  */
 class MiniProgram
