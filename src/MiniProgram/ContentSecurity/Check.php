@@ -1,4 +1,14 @@
 <?php
+
+/**
+ * Check.php  内容安全检查
+ *
+ * @author    Xiaok
+ * @copyright 2020 Xiaok
+ * @see      https://github.com/luxiaok
+ *
+ */
+
 namespace EasyWeChat\MiniProgram\ContentSecurity;
 
 use EasyWeChat\Core\AbstractAPI;
