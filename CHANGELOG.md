@@ -1,6 +1,20 @@
 Change Logs
 ===========
 
+#### v3.3.35
+
+* 新增小程序订阅消息接口
+
+```php
+<?php
+
+$app = new Application($options);
+$miniProgram = $app->mini_program;
+$miniProgram->message_subscribe->send($message);
+
+```
+
+
 #### v3.3.34
 
 * 新增内容安全接口
