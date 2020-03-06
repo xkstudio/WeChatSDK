@@ -91,6 +91,8 @@ $server->serve()->send();
 
 ## Integration
 
+* Yii2: [yii2-wechat](https://github.com/xkstudio/yii2-wechat)
+
 * [Laravel 5 拓展包: overtrue/laravel-wechat](https://github.com/overtrue/laravel-wechat)
 
 
