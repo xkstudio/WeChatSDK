@@ -91,7 +91,7 @@ $server->serve()->send();
 
 ## Integration
 
-[Laravel 5 拓展包: overtrue/laravel-wechat](https://github.com/overtrue/laravel-wechat)
+* [Laravel 5 拓展包: overtrue/laravel-wechat](https://github.com/overtrue/laravel-wechat)
 
 
 ## Contribution
