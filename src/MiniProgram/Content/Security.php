@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Check.php  内容安全检查
+ * Security.php  内容安全检查
  *
  * @author    Xiaok
  * @copyright 2020 Xiaok
@@ -9,13 +9,13 @@
  *
  */
 
-namespace EasyWeChat\MiniProgram\ContentSecurity;
+namespace EasyWeChat\MiniProgram\Content;
 
 use EasyWeChat\Core\AbstractAPI;
 use EasyWeChat\Support\Collection;
 use EasyWeChat\Core\Exceptions\InvalidArgumentException;
 
-class Check extends AbstractAPI
+class Security extends AbstractAPI
 {
     const API_CHECK_TEXT = 'https://api.weixin.qq.com/wxa/msg_sec_check';
     const API_CHECK_IMG = 'https://api.weixin.qq.com/wxa/img_sec_check';
