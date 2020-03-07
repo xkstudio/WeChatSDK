@@ -23,7 +23,7 @@
 namespace EasyWeChat\Foundation\ServiceProviders;
 
 use EasyWeChat\MiniProgram\AccessToken;
-use EasyWeChat\MiniProgram\ContentSecurity\Check as ContentSecurity;
+use EasyWeChat\MiniProgram\Content\Security as ContentSecurity;
 use EasyWeChat\MiniProgram\Encryption\Encryptor;
 use EasyWeChat\MiniProgram\Material\Temporary;
 use EasyWeChat\MiniProgram\Message\Subscribe;
