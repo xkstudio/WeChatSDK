@@ -5,7 +5,7 @@ Fork from EasyWeChat
 
 Current version: **v3.3.35-dev**
 
-> Support for PHP 5
+> Support for **PHP 5**
 
 
 ## Change logs
