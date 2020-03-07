@@ -8,9 +8,9 @@ Current version: **v3.3.35-dev**
 > Support for **PHP 5**
 
 
-## Change logs
+## Change Logs
 
-[Change Logs](CHANGELOG.md)
+* [Change Logs](CHANGELOG.md)
 
 
 ## Feature
