@@ -93,7 +93,7 @@ $server->serve()->send();
 
 * Yii2: [yii2-wechat](https://github.com/xkstudio/yii2-wechat)
 
-* [Laravel 5 拓展包: overtrue/laravel-wechat](https://github.com/overtrue/laravel-wechat)
+* Laravel5：[laravel-wechat](https://github.com/overtrue/laravel-wechat)
 
 
 ## Contribution
