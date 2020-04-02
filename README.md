@@ -3,7 +3,7 @@ WeChat SDK
 
 Fork from EasyWeChat
 
-Current version: **v3.3.35-dev**
+Current version: **v3.3.35**
 
 > Support for **PHP 5.5/5.6**
 
