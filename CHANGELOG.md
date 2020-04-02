@@ -10,6 +10,16 @@ Change Logs
 
 $app = new Application($options);
 $miniProgram = $app->mini_program;
+$message = [
+    'touser' => 'OPENID', //用户OpenID
+    'template_id' => 'TemplateID', //订阅消息模板ID
+    'page' => 'pages/index/index',
+    'miniprogram_state' => 'developer', //跳转小程序类型：developer为开发版；trial为体验版；formal为正式版；默认为正式版
+    'data' => [
+         'thing1' => ['value'=>''],
+         //...
+    ]
+];
 $miniProgram->message_subscribe->send($message);
 
 ```
