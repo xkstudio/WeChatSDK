@@ -7,6 +7,7 @@ Change Logs
 
 ```php
 <?php
+use EasyWeChat\Foundation\Application;
 
 $app = new Application($options);
 $miniProgram = $app->mini_program;
