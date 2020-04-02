@@ -21,8 +21,11 @@ $message = [
     ]
 ];
 $miniProgram->message_subscribe->send($message);
-
 ```
+
+订阅消息参考文档：
+
+https://developers.weixin.qq.com/miniprogram/dev/api-backend/open-api/subscribe-message/subscribeMessage.send.html
 
 
 #### v3.3.34
